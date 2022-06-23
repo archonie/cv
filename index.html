@@ -1,0 +1,148 @@
+<!-- it generates a boilerplate in vscode when you type "!" -->
+<!-- deprecated means that no longer remcommended you using the thing -->
+<!-- html is for structure, css is for style, javascript is for behaviour, 
+so dont use html for styling-->
+<!DOCTYPE html>
+<!-- tells the browser what is the version of html that we're using -->
+
+<html>
+  <!-- html pages consists of a head and a body-->
+
+  <head>
+    <!-- head part is of the html body, holds the info about the page-->
+
+    <meta charset="UTF-8" />
+    <!-- encodes our page in utf-8 which saves us from complicated sites-->
+    <!-- meta tags also used for description, keywords, author, 
+      viewport check w3 for more-->
+
+    <title>My Personal Site</title>
+  </head>
+  <body>
+    <!-- body part is where we keep the content-->
+    <table cellspacing="20">
+      <!-- we used table for make our image and text next to each other 
+      also cellspacing is used for giving some space between table cells -->
+      <tr>
+        <!-- tr is used for creating table rows-->
+        <td>
+          <!-- td is used for creating table cells-->
+          <img
+            src="images/ensarello.PNG"
+            alt="picture-of-ensar-papuccuoglu"
+          /><!-- image tag is used for adding images to our page source part
+       is where are we getting the image and the alt part is 
+      what are we going to show when we cannot reach the source-->
+        </td>
+        <td>
+          <h1>Doğan Ensar Papuçcuoğlu</h1>
+          <!-- header tag-->
+          <p>
+            <em>A <strong>Computer Science</strong> Student</em>
+          </p>
+          <!-- p is the paragraph tag, em is the emphasis tag, i does the same 
+      work, as with em and i, b and strong tags  are similar but strong
+        is more correct  -->
+          <p>
+            A freshman Computer Science student @ Akdeniz University. Loves
+            playing video games and stuff. Speaks a bit fast and noone likes
+            him. Probably gonna die alone.
+          </p>
+        </td>
+      </tr>
+    </table>
+    <hr />
+    <!-- horizontal rule tag draws a horizontal line -->
+    <h3>Education</h3>
+    <ul>
+      <!-- unordered list tag-->
+      <li>Çağatay Uluçay Primary School</li>
+      <!-- list item tag contains list elements -->
+      <li>Çağatay Uluçay Secondary School</li>
+      <li>Bülent Koşmaz Highschool</li>
+      <li>Akdeniz University</li>
+    </ul>
+    <hr />
+    <h3>Education Life</h3>
+    <table cellspacing="10">
+      <!-- table tag isused to create tables in html -->
+      <thead>
+        <!-- thead is used to create a table head section-->
+        <tr>
+          <!-- tr is used to create a table row-->
+          <th>Dates</th>
+          <!-- th is used to create a table header cell-->
+          <th>School</th>
+          <!-- th is used to create a table header cell-->
+        </tr>
+      </thead>
+      <tbody>
+        <!-- tbody is used to create a table body part-->
+        <tr>
+          <!-- tr is used to create a table row-->
+          <td>
+            <!-- td is used to create a table cell -->
+            2008-2012
+          </td>
+          <td>
+            <!--td is used to create a table cell-->
+            Çağatay Uluçay Primary School
+          </td>
+        </tr>
+        <tr>
+          <td>2012-2016</td>
+          <td>Çağatay Uluçay Secondary School</td>
+        </tr>
+        <tr>
+          <td>2016-2019</td>
+          <td>Bülent Koşmaz Hihgschool</td>
+        </tr>
+        <tr>
+          <td>2019-2020</td>
+          <td>Final Private Highschool</td>
+        </tr>
+
+        <tr>
+          <td>2010-</td>
+          <td>Akdeniz University</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h3>Skills</h3>
+    <table>
+      <!-- by using nested tables u can make your page look better-->
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>Web Development</td>
+              <td>⭐⭐</td>
+            </tr>
+            <tr>
+              <td>iOS Development</td>
+              <td>⭐</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>Videogames</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Being Cringe</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <hr />
+    <h3><a href="hobbies.html">My Hobbies</a></h3>
+    <!-- we used anchor tag to link our 2 html files-->
+    <hr />
+    <h3><a href="contact.html">Contact Me!</a></h3>
+  </body>
+</html>

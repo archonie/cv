@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Me!</title>
+  </head>
+  <body>
+    <h3>Contact Me!</h3>
+    <ul>
+      <li><a href="https://outlook.com">Email</a></li>
+      <li><a href="https://instagram.com/archonie_">Instagram</a></li>
+      <li><a href="https://twitter.com/archonie">Twitter</a></li>
+    </ul>
+    <hr />
+    <form
+      action="mailto:ensarpabuccuoglu@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <!-- form tag is used to create a form, action specializes 
+        what is the form doing when you hit submit
+        mailto automatically emails the form-->
+      <label>Your Name: </label>
+      <!-- label tag is used to create a form part and give it a name-->
+      <input
+        type="text"
+        name="Your-name"
+      /><!-- input tag is used for gettin information from your user-->
+      <br />
+      <!-- also color is one of the input types, check w3 for more-->
+      <label>Your Email:</label>
+      <input
+        type="email"
+        name="Your-email"
+      /><!-- password type allows us the hide the text-->
+      <br />
+      <label>Your message:</label><br />
+      <textarea name="Your-message" id="" cols="30" rows="10"></textarea>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
